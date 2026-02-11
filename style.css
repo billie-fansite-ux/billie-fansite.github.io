@@ -1,0 +1,67 @@
+#p1{
+    font-family: "Roboto", Arial, Helvetica, sans-serif;
+}
+
+#psong{
+    font-family: "Story Script", sans-serif, Arial, Helvetica, sans-serif;
+}
+
+#hb1{
+    text-shadow: 3px 3px 5px green;
+    background-color: beige;
+}
+
+
+#hb5{
+    text-shadow: 3px 3px 5px green;
+    background-color: beige;
+    padding: 5px;
+}
+
+
+#hb2{
+    text-shadow: 3px 3px 5px green;
+    background-color: beige;
+}
+
+#a1{
+    text-shadow: 3px 3px 5px green;
+    background-color: beige;
+    color: black;
+}
+
+#psong{
+    text-shadow: 3px 3px 5px lightblue;
+}
+
+#tableborder{
+    background-color: fdf5e6;
+    box-shadow: 10px 10px 15px darkred; 
+}
+
+
+#head{
+    padding: 15px;
+}
+
+.video-container {
+    text-align: center;
+}
+
+.video-container img {
+    width: 200px;
+}
+
+
+
+.clickable-img {
+    text-align: center;
+    display: block;
+    
+}
+
+.clickable-img {
+    margin: auto;
+}
+
+
