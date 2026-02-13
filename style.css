@@ -103,3 +103,23 @@
 #op{
     border: 3px solid #466475;
 }
+
+#binfo{
+    text-align: center ;
+}
+
+#ad {
+    border: 2px solid black;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;              /* or bottom: 0; if you want it at the bottom */
+    background-color: rgb(237, 100, 100);
+    padding: 10px 0;
+    text-align: center;
+}
+
+#foot{
+    left: 0;
+    right: 0;
+}
