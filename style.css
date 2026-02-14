@@ -50,7 +50,7 @@
 
 #head{
     padding: 90px;
-    background-image: url(il_300x300.7365136907_lzk1.jpg);    
+    background-image: url(images/il_300x300.7365136907_lzk1.jpg);    
 }
 
 .video-container {
@@ -148,7 +148,7 @@
 
 
 #foot{
-    background-image: url(thumb-1920-999689.jpg);
+    background-image: url(images/thumb-1920-999689.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -226,6 +226,7 @@
     color: rgb(0, 247, 255);
 
 }
+
 
 
 
