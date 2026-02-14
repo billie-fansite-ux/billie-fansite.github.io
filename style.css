@@ -9,6 +9,7 @@
 #hb1{
     text-shadow: 3px 3px 5px green;
     background-color: beige;
+    text-align: center;
 }
 
 
@@ -16,6 +17,7 @@
     text-shadow: 3px 3px 5px green;
     background-color: beige;
     padding: 5px;
+    text-align: center;
 }
 
 
@@ -28,6 +30,12 @@
     text-shadow: 3px 3px 5px green;
     background-color: beige;
     color: black;
+    text-align: center;
+    margin: auto;
+    display: flex;
+    justify-content: center; /* Centers horizontally */
+    align-items: center;     /* Centers vertically */
+  
 }
 
 #psong{
@@ -35,13 +43,14 @@
 }
 
 #tableborder{
-    background-color: fdf5e6;
-    box-shadow: 10px 10px 15px darkred; 
+    background-color: #fdf5e6;
+    box-shadow: 10px 10px 15px rgb(65, 65, 65); 
 }
 
 
 #head{
-    padding: 15px;
+    padding: 90px;
+    background-image: url(il_300x300.7365136907_lzk1.avif);    
 }
 
 .video-container {
@@ -113,12 +122,27 @@
     position: fixed;
     left: 0;
     right: 0;
-    top: 0;               
-    background-color: rgb(237, 100, 100);
+    top: 0;              /* or bottom: 0; if you want it at the bottom */
+    background-color: rgb(0, 0, 0);
     padding: 10px 0;
     text-align: center;
+    color: #ffffff;
+    white-space: nowrap;
+    border-radius: 75px;
+    transition: all 0.3s ease;  /* ✅ move transition here */
 }
- 
+
+#ad:hover {
+    background-color: pink;
+    color: #333333;
+    border-radius: 0px;
+    font-size: 14px;
+    transform: scale(1.1);
+
+}
+
+
+
 #foot{
     background-image: url(thumb-1920-999689.jpg);
     background-repeat: no-repeat;
@@ -126,3 +150,74 @@
     background-size: cover;
 }
 
+#likeq {
+    display: none;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    background-color: pink;
+    padding: 3px;
+}
+
+#hb2:hover + #likeq {
+    display: block;
+}
+
+.album-list {
+    list-style-position: inside;
+    padding: 0;
+}
+
+.album-list li {
+    margin: 15px 0;
+}
+
+.album-btn {
+    display: inline-block;
+    background-color: pink;
+    color: white;
+    border: 2px solid white;
+    padding: 10px 18px;
+    border-radius: 20px;
+    font-size: 16px;
+    text-decoration: none;
+    transition: 0.3s ease;
+}
+
+.album-btn:hover {
+    background-color: rgb(253, 253, 111);
+    color: black;
+}
+
+.profile {
+    display: flex;
+    justify-content: center;   /* centers them */
+    align-items: center;
+    gap: 10px;                 /* space between buttons */
+}
+
+.social-btn {
+    background-color: pink;
+    color: white;
+    border: 2px solid white;
+    padding: 5px 12px;
+    border-radius: 50px;
+    font-size: 12px;
+    text-decoration: none;
+    transition: 0.3s ease;
+    white-space: nowrap;       /* prevents text from breaking */
+}
+
+.social-btn:hover {
+    background-color: rgb(253, 253, 111);
+    color: black;
+    transform: scale(1.20);
+}
+
+#bgcol{
+    background-color: hsl(0, 0%, 69%);
+}
+
+#psong::selection{
+    background-color: rgb(114, 0, 0);
+    color: rgb(0, 247, 255);
+}
