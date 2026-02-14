@@ -138,6 +138,13 @@
     border-radius: 0px;
     font-size: 14px;
     transform: scale(1.1);
+}
+
+#ad::selection{
+    background-color: rgb(114, 0, 0);
+    color: rgb(0, 247, 255);
+}
+
 
 
 #foot{
@@ -219,3 +226,4 @@
     color: rgb(0, 247, 255);
 
 }
+
