@@ -50,7 +50,8 @@
 
 #head{
     padding: 90px;
-    background-image: url(images/il_300x300.7365136907_lzk1.jpg);    
+    background-image: url(images/il_300x300.7365136907_lzk1.jpg);
+  
 }
 
 .video-container {
@@ -138,27 +139,23 @@
     border-radius: 0px;
     font-size: 14px;
     transform: scale(1.1);
-}
 
+}
 #ad::selection{
     background-color: rgb(114, 0, 0);
     color: rgb(0, 247, 255);
 }
 
-
-
+#psong::selection{
+    background-color: rgb(114, 0, 0);
+    color: rgb(0, 247, 255);
+}
 
 #foot{
     background-image: url(images/thumb-1920-999689.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-}
-
-#foot {
-    text-align: center;
-    padding: 0px;
-    color: white;
 }
 
 #likeq {
@@ -168,7 +165,6 @@
     background-color: pink;
     padding: 3px;
 }
-
 
 #hb2:hover + #likeq {
     display: block;
@@ -232,9 +228,7 @@
 #psong::selection{
     background-color: rgb(114, 0, 0);
     color: rgb(0, 247, 255);
-
 }
-
 
 
 
