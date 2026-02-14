@@ -145,6 +145,11 @@
     color: rgb(0, 247, 255);
 }
 
+#foot {
+    text-align: center;
+    padding: 15px;
+    color: white;
+}
 
 
 #foot{
@@ -226,6 +231,7 @@
     color: rgb(0, 247, 255);
 
 }
+
 
 
 
